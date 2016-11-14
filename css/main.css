@@ -1,0 +1,33 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: rgb(204, 204, 204) none repeat scroll 0% 0%;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+#myVideo{
+    height: 100px;
+    width: 100%;
+    display: none;
+}
+#myCanvas{
+    height: 400px;
+}
+.divMain{
+   text-align: center;
+   margin-top: 2%;
+}
+.divBoutton{
+    text-align: center;
+}
+#text{
+    text-align: center;
+}
+footer.page-footer {
+    margin-top: 0px;
+}
